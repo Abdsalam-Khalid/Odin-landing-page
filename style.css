@@ -24,6 +24,7 @@
     background-color: #1F2937;
     padding: 7em;
     display: flex;
+    height: 200px;
 }
 
 .main-text {
@@ -44,8 +45,13 @@
     margin-block-start: 20px;
 }
 
-.first-column {
+.first-column , .second-column {
     width: 500px;
+    height: 300px;
+}
+
+.odin-image {
+    object-fit: contain;
 }
 /* Generics */
 
