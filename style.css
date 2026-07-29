@@ -53,6 +53,35 @@
 .odin-image {
     object-fit: contain;
 }
+
+.info-section {
+    margin-block-end: 7em;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+}
+
+.box-info {
+    width: 150px;
+}
 /* Generics */
 
 ul {
