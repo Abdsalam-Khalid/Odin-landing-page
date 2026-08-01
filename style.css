@@ -89,23 +89,26 @@
 }
 
 .quote-section {
-    background-color: #1F2937;
+    background-color: #E5E7EB;
     padding: 100px 350px;
-    color: white;
-    font-size: 20px;
+    color: #1F2937;
 }
 
 .quote {
+    font-size: 36px;
+    font-weight: 300;
     font-style: italic;
-    width: 550px;
-    line-height: 1.5em;
+}
+
+.thor {
+    margin: 10px 0 0 5em;
+    font-weight: 100;
 }
 
 .call-to-action-section {
     background-color: #3882F6;
     color: white;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     width: 50em;
     height: 3em;
@@ -131,6 +134,13 @@
 
 .btn-column {
     margin: 2em;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
 }
 
 /* Generics */
